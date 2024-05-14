@@ -7,7 +7,7 @@ public class ContaBancaria {
 
     public ContaBancaria(String titular) {
         this.titular = titular;
-        this.saldo = 1000.00;
+        this.saldo = 0.00;
     }
 
     public void deposito (double valor){

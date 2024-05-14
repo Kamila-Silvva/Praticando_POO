@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Titular: " + Conta.getTitular());
         System.out.println("Saldo: " + Conta.getSaldo());
 
-        Conta.deposito(1);
-        Conta.saque(401);
+        Conta.deposito(2500);
+        Conta.saque(1500);
 
         System.out.println("Saldo disponível em conta após as ações realizadas: R$ " + Conta.getSaldo());
     }
