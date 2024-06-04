@@ -5,7 +5,7 @@ public class Main {
         Person person = new Person("Kamila", 20);
         person.info();
 
-        Students students = new Students("Kamila", 20, 252000);
+        Students students = new Students("Kamila", 20, "252000");
         students.info();
     }
 }

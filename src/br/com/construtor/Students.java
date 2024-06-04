@@ -2,9 +2,9 @@ package br.com.construtor;
 
 public class Students extends Person{
 
-    double StudentID;
+    String StudentID;
 
-    public Students(String name, int age, double studentID) {
+    public Students(String name, int age, String studentID) {
         super(name, age);
         StudentID = studentID;
     }
