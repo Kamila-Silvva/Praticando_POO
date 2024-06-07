@@ -9,6 +9,8 @@ public class Main {
         carro.frear();
         carro.ligarArCondicionado();
 
+        System.out.println(" ");
+
         Moto moto = new Moto("Honda", "L80", 2024, 180);
         moto.infoVeiculos();
         moto.acelerar();
