@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         Produto[] produtos = new Produto[3];
-        produtos[0] = new Eletronico("Smartphone", 1500.00, "Samsung", 12);
-        produtos[1] = new Vestuario("Camiseta", 25.00, "Camiseta básica", 42, "Azul");
-        produtos[2] = new Livro("Harry Potter", 40.00, "Livro de fantasia",
-                "J.K. Rowling", "Fantasia");
+        produtos[0] = new Eletronico("Smartphone", 1800.00, "Samsung", 2);
+        produtos[1] = new Vestuario("Vestido", 69.90, "Vestido longo", 42, "Azul e branco");
+        produtos[2] = new Livro("Tessa", 69.90, "O lado bom precisa do ruim para poder existir",
+                "Bruna Pallazzo", "Fantasia");
 
         for (Produto produto : produtos) {
             produto.exibirDetalhes();

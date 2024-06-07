@@ -12,7 +12,7 @@ public class Professor extends Pessoa {
 
     public void ensinar () {
         super.apresentar();
-        System.out.println("Enina: " + disciplina);
+        System.out.println("Ensina: " + disciplina);
         System.out.println("Salário: R$: " +  salario);
     }
 

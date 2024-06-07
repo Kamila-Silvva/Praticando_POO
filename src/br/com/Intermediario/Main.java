@@ -3,7 +3,7 @@ package br.com.Intermediario;
 public class Main {
     public static void main(String[] args) {
 
-        Carro carro = new Carro("Ferrari", "SF-24", 2024, 2);
+        Carro carro = new Carro("Ferrari", "Daytona SP3", 2023, 2);
         carro.infoVeiculos();
         carro.acelerar();
         carro.frear();

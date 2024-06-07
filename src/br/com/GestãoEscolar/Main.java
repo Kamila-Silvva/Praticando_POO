@@ -8,7 +8,7 @@ public class Main {
         aluno.estudar();
 
         Professor professor = new Professor("Kamila", "03531940180",
-                "22-09-2003", "Programação Orientada a Objetivos", 10.000);
+                "22-09-2003", "Programação Orientada a Objeto", 10.000);
         professor.ensinar();
 
     }
