@@ -41,26 +41,43 @@ public class Livro {
         return paginaAtual;
     }
 
-    public void setPaginaAtual(int paginaAtual) {
-        this.paginaAtual = paginaAtual;
-    }
-
-    public void avancarPagina () {
-        System.out.println("Avançar Página");
-    }
-
-    public void retrocederPagina () {
-        System.out.println("Retroceder Página");
-    }
-
-    public void exibirPaginaAtual () {
-        System.out.println("Página Atual: " + paginaAtual);
-    }
-
     public void exibirDetalhes () {
         System.out.println("Titulo: " + titulo);
         System.out.println("Autor: " + autor);
         System.out.println("Numero de páginas: " + numeroDePaginas);
     }
 
+    public void setPaginaAtual(int paginaAtual) {
+        if (paginaAtual > 0 && paginaAtual <= numeroDePaginas) {
+            this.paginaAtual = paginaAtual;
+        } else {
+            System.out.println("Número de páginas inválidas");
+        }
+    }
+
+    public void avancarPagina() {
+        if (paginaAtual < numeroDePaginas) {
+            paginaAtual++;
+            System.out.println("Avançou para a página: " + paginaAtual);
+        } else {
+            System.out.println("Você está na última página");
+        }
+    }
+
+    public void retrocederPagina() {
+        if (paginaAtual > 1) {
+            paginaAtual--;
+            System.out.println("Retrocedeu para a página: " + paginaAtual);
+        } else if (paginaAtual > numeroDePaginas) {
+            paginaAtual = numeroDePaginas;
+            System.out.println("Número de página inválido. Página atual definida para a última página.");
+        } else {
+            System.out.println("Você está na primeira página");
+        }
+    }
+
+    public void exibirPaginaAtual() {
+        System.out.println("Página Atual: " + paginaAtual);
+    }
 }
+
