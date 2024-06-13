@@ -8,6 +8,5 @@ public class Main {
         livro.avancarPagina();
         livro.retrocederPagina();
         livro.exibirPaginaAtual();
-
     }
 }
