@@ -75,7 +75,7 @@ public class Livro {
             System.out.println("Você está na primeira página");
         }
     }
-    
+
     public void exibirPaginaAtual() {
         System.out.println("Página Atual: " + paginaAtual);
     }
